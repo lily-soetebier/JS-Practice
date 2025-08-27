@@ -16,18 +16,25 @@ In your group, create a suite of the following primitives about a topic of your 
 - 1 array for the Numbers
 - 1 array of 5 objects that combines the Strings and Numbers into 1
 
-```javascript
+```js
 /**
  * Convert and declare here!
 **/
 // 5 Strings with `let`
-
+let macchiato = "Macchiato"
+let oatMilkLatte = "Oat Milk Latte"
+let chaiLatte = "Chai Latte"
+let americano = "Americano"
+let matchaLatte = "Matcha Latte"
 
 // 5 Numbers with `const`
-
+const macchiatoPrice = 4.50
+const oatMilkLattePrice = 6.50
+const chaiLattePrice = 5.00
+const americanoPrice = 2.00
+const matchaLattePrice = 9.00
 
 // 1 array for the Strings with the variable names
-
 
 // 1 array for the Numbers with the variable names
 
