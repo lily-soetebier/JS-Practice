@@ -36,7 +36,11 @@ const matchaLattePrice = 9.00
 
 // 1 array for the Strings with the variable names
 
+let menuItems = [macchiato, oatMilkLatte, chaiLatte, americano, matchaLatte]
+
 // 1 array for the Numbers with the variable names
+
+let menuPrices = [macchiatoPrice, oatMilkLattePrice, chaiLattePrice, americanoPrice, matchaLattePrice]
 
 
 /**
@@ -44,7 +48,13 @@ const matchaLattePrice = 9.00
  * and Numbers into 1 object as 2 properties of
  * each object
 **/
-
+let fullMenu = [
+  { item: macchiato, price: macchiatoPrice},
+  { item: oatMilkLatte, price: oatMilkLattePrice},
+  { item: chaiLatte, price: chaiLattePrice},
+  { item: americano, price: americanoPrice},
+  { item: matchaLatte, price: matchaLattePrice},
+]
 
 ```
 
