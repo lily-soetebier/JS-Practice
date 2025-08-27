@@ -56,6 +56,7 @@ let fullMenu = [
   { item: matchaLatte, price: matchaLattePrice},
 ]
 
+console.log(fullMenu)
 ```
 
 ## 2. Playing with Our Data in the Web Console
