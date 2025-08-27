@@ -65,22 +65,24 @@ console.log(fullMenu)
 
 Concatenate them with `+` operator.
 
-```javascript
-// Convert and play
+```js
+americano + " " + matchaLatte
 ```
 
 Access position of individual characters at index.
 
-```javascript
-// Convert and play
+```js
+//character position
+oatMilkLatte.at(5)
+//
 ```
 
 ### Numbers
 
 Use arithmetic operators to yield computations: `+`, `-`, `*`, `/`, etc.
 
-```javascript
-// Convert and play
+```js
+(americanoPrice + matchaLattePrice)
 ```
 
 ## 3. Finding Built-In Docs Arrays & Objects in the Web Console
@@ -89,15 +91,18 @@ Use arithmetic operators to yield computations: `+`, `-`, `*`, `/`, etc.
 
 Log your simple Array of Strings to the console, so we can check out what built-in methods we can use for Arrays.
 
-```javascript
-// Convert and play
+```js
+console.log(fullMenu)
+
 ```
 
 Log your Array of Objects to the console, so we can check out what built-in methods we can use for Objects.
 
 ### Array of Objects
 
-```javascript
+```js
+console.log(fullMenu[4].item)
+
 // Convert and play
 ```
 
